@@ -4,12 +4,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.ThreadLocalRandom;
 
-/**
- * 随机生成类
- *
- * @author wangfd
- * @date 2018/11/29 新建
- */
 public class RandomGenerator {
 
     private static char[] _letters = {

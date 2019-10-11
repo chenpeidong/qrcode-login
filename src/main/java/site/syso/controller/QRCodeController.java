@@ -33,7 +33,7 @@ public class QRCodeController {
     }
 
     @ResponseBody
-    @GetMapping("/generate")
+    @GetMapping("/init")
     public Response generateQRCode() {
         String ticket = RandomGenerator.generate(32, RandomGenerator.LETTER | RandomGenerator.NUMBER);
         tickets.put(ticket, System.currentTimeMillis());
